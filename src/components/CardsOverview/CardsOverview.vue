@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <div>
+      <p>CardsOverview #1</p>
+      <p>CardsOverview #2</p>
+      <p>CardsOverview #3</p>
+    </div>
+    <CardSingle/>
+  </div>
+</template>
+
+<script>
+import CardSingle from "@/components/CardSingle/CardSingle.vue";
+
+export default {
+  name: "CardsOverview",
+  components: {
+    CardSingle
+  }
+};
+</script>
+
+<style lang="scss">
+@import "src/components/CardsOverview/CardsOverview.scss";
+</style>
