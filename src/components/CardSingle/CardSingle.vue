@@ -1,14 +1,18 @@
+<!-- this is single event component -->
+
 <template>
-  <section class="wrapper">
+  <router-link class="card-link" :to="{ name: 'card-details' }">
     <div class="container">
       <div class="card-single-text">
-        <slot>Event #10</slot>
+        <slot/>
       </div>
     </div>
-  </section>
+  </router-link>
 </template>
 
 <script>
+import CardDetails from "@/components/CardDetails/CardDetails";
+
 export default {
   name: "CardSingle"
 };
