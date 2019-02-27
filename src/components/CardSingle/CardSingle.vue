@@ -1,7 +1,11 @@
 <template>
-  <div class="card-single">
-    <slot>Hey, I am a slot of CardSingle</slot>
-  </div>
+  <section class="wrapper">
+    <div class="container">
+      <div class="card-single-text">
+        <slot>Event #10</slot>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

@@ -1,13 +1,8 @@
 <template>
-  <div>
-    <div class="cards-overview">
-      <p>CardsOverview #1</p>
-      <p>CardsOverview #2</p>
-      <p>CardsOverview #3</p>
-    </div>
-    <CardSingle>Hello World</CardSingle>
-    <CardSingle>Hello Mars</CardSingle>
-    <CardSingle>Hello Venus</CardSingle>
+  <div class="cards-overview">
+    <CardSingle>Event #1</CardSingle>
+    <CardSingle>Event #2</CardSingle>
+    <CardSingle>Event #3</CardSingle>
   </div>
 </template>
 
