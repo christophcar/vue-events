@@ -1,5 +1,7 @@
 <template>
-  <div class="card-single">I am a component called CardSingle</div>
+  <div class="card-single">
+    <slot>Hey, I am a slot of CardSingle</slot>
+  </div>
 </template>
 
 <script>
@@ -8,5 +10,6 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "src/components/CardSingle/CardSingle.scss";
 </style>
