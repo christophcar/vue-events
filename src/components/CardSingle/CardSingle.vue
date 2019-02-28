@@ -19,5 +19,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "src/components/CardSingle/CardSingle.scss";
+@import "@/components/CardSingle/CardSingle.scss";
 </style>

@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "src/components/CardDetails/CardDetails.scss";
+@import "@/components/CardDetails/CardDetails.scss";
 </style>

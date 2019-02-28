@@ -32,5 +32,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "src/components/CardsOverview/CardsOverview.scss";
+@import "@/components/CardsOverview/CardsOverview.scss";
 </style>
