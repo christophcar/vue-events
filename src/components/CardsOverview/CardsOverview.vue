@@ -2,6 +2,7 @@
 
 <template>
   <section>
+    <Navigation />
     <Headline>Neueste Events in deiner Stadt</Headline>
     <img class="start-image" :src="image">
     <div class="cards-overview">
@@ -15,13 +16,15 @@
 <script>
 import CardSingle from "@/components/CardSingle/CardSingle";
 import Headline from "@/components/Headline/Headline";
+import Navigation from "@/components/Navigation/Navigation";
 import StartImage from "@/assets/Undraw.svg";
 
 export default {
   name: "CardsOverview",
   components: {
     CardSingle,
-    Headline
+    Headline,
+    Navigation
   },
   data() {
     return {

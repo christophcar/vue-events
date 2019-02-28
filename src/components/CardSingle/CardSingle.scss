@@ -1,5 +1,6 @@
 .card-single-link {
   text-decoration: none;
+  color: #333;
 }
 
 .container {
@@ -22,7 +23,8 @@
   }
 
   > .card-single-header {
-    font-size: 22px;
+    font-size: 26px;
+    font-weight: 700;
     grid-column: 2 / 4;
     grid-row: 1 / 2;
   }
