@@ -1,6 +1,7 @@
 <template>
     <nav id="navigation-links">
       <router-link :to="{ name: 'cards-overview' }">All Events</router-link>
+      <span>|</span>
       <router-link :to="{ name: 'card-details' }">Featured this Week</router-link>
     </nav>
 </template>
