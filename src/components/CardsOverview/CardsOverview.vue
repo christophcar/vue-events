@@ -5,9 +5,9 @@
     <Headline>Neueste Events in deiner Stadt</Headline>
     <img class="start-image" :src="image">
     <div class="cards-overview">
-      <CardSingle>Event #1</CardSingle>
-      <CardSingle>Event #2</CardSingle>
-      <CardSingle>Event #3</CardSingle>
+      <CardSingle :header="event.header" :text="event.text" :icon="image"/>
+      <CardSingle :header="event.header" :text="event.text" :icon="image"/>
+      <CardSingle :header="event.header" :text="event.text" :icon="image"/>
     </div>
   </section>
 </template>
@@ -15,7 +15,7 @@
 <script>
 import CardSingle from "@/components/CardSingle/CardSingle";
 import Headline from "@/components/Headline/Headline";
-import StartImage from "@/assets/undraw.svg";
+import StartImage from "@/assets/Undraw.svg";
 
 export default {
   name: "CardsOverview",
@@ -25,7 +25,11 @@ export default {
   },
   data() {
     return {
-      image: StartImage
+      image: StartImage,
+      event: {
+        header: "Event #1",
+        text: "Join our awesome event at Stadium"
+      }
     };
   }
 };
