@@ -5,9 +5,7 @@
     <div class="container">
       <div class="card-single-header">{{ header }}</div>
       <div class="card-single-text">{{ text }}</div>
-      <img class="card-single-icon">
-      {{ icon }}
-      <img>
+      <img class="card-single-icon" :src="icon">
     </div>
   </router-link>
 </template>

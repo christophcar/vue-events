@@ -5,9 +5,9 @@
     <Headline>Neueste Events in deiner Stadt</Headline>
     <img class="start-image" :src="image">
     <div class="cards-overview">
-      <CardSingle :header="event.header" :text="event.text" :icon="image"/>
-      <CardSingle :header="event.header" :text="event.text" :icon="image"/>
-      <CardSingle :header="event.header" :text="event.text" :icon="image"/>
+      <CardSingle :header="event.header" :text="event.text" :icon="event.icon"/>
+      <CardSingle :header="event.header" :text="event.text" :icon="event.icon"/>
+      <CardSingle :header="event.header" :text="event.text" :icon="event.icon"/>
     </div>
   </section>
 </template>
@@ -28,7 +28,8 @@ export default {
       image: StartImage,
       event: {
         header: "Event #1",
-        text: "Join our awesome event at Stadium"
+        text: "Join our awesome event at Stadium",
+        icon: StartImage
       }
     };
   }
