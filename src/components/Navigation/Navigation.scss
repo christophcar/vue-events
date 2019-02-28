@@ -1,6 +1,11 @@
-#navigation-links {
-  router-links {
-    color: green;
-    font-size: 40px;
+.navigation-links {
+  a {
+    color: #333;
+    font-weight: 300;
+    // text-decoration: none;
+  }
+
+  .navigation-separator {
+    margin: 0 15px 0 15px;
   }
 }

@@ -1,7 +1,7 @@
 <!-- this is the event detail page -->
 
 <template>
-  <div class="card-details">
+  <div>
     <slot>I am a details page!</slot>
   </div>
 </template>
@@ -11,7 +11,3 @@ export default {
   name: "CardDetails"
 };
 </script>
-
-<style lang="scss">
-@import "@/components/CardDetails/CardDetails.scss";
-</style>

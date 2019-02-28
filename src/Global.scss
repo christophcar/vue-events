@@ -1,0 +1,28 @@
+// globals
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+  margin-top: 60px;
+}
+
+// variables
+$primary-color: #333;
+$secondary-color: #000;
+
+// mixins
+@mixin margin-10 {
+  margin: 10px;
+}
+@mixin margin-20 {
+  margin: 20px;
+}
+@mixin margin-30 {
+  margin: 30px;
+}
+@mixin margin-40 {
+  margin: 40px;
+}

@@ -22,21 +22,24 @@
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.13);
   }
 
-  > .card-single-header {
+  > .card-single-title {
     font-size: 26px;
     font-weight: 700;
     grid-column: 2 / 4;
     grid-row: 1 / 2;
   }
 
-  > .card-single-text {
-    font-size: 22px;
+  > .card-single-date {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
   }
 
-  > .card-single-icon {
-    font-size: 22px;
+  > .card-single-attendees {
+    grid-column: 2 / 4;
+    grid-row: 3 / 3;
+  }
+
+  > .card-single-image {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
     max-width: 150px;

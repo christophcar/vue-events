@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import CardsOverview from '@/components/CardsOverview/CardsOverview'
-import CardDetails from '@/components/CardDetails/CardDetails'
+import CardsOverview from '@/views/CardsOverview'
+import CardDetails from '@/views/CardDetails'
 
 Vue.use(Router)
 

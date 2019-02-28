@@ -4,6 +4,6 @@
 
 ## Todos
 
-> Include global styles
-> Create navigation bar
-> Integrate content for events in props
+> Include global styles -> Done!
+> Create navigation bar -> Done!
+> Integrate content for events in props -> ?
