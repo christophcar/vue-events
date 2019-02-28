@@ -23,20 +23,20 @@
 
   > .card-single-header {
     font-size: 22px;
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     grid-row: 1 / 2;
   }
 
   > .card-single-text {
     font-size: 22px;
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     grid-row: 2 / 3;
   }
 
   > .card-single-icon {
     font-size: 22px;
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 1 / 4;
     max-width: 150px;
     height: auto;
   }
