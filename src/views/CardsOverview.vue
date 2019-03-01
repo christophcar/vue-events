@@ -4,8 +4,7 @@
   <section>
     <Navigation/>
     <Headline>Find the best events in your area</Headline>
-     <BaseImage name="users" />
-     <BaseImage name="activity" />
+    <BaseImage/>
     <div class="cards-overview">
       <CardSingle/>
       <CardSingle/>
