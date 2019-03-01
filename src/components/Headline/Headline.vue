@@ -10,7 +10,6 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "src/components/Headline/Headline.scss";
+<style lang="scss" src="./Headline.scss">
 </style>
 

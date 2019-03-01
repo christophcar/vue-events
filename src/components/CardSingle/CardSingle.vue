@@ -40,6 +40,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "@/components/CardSingle/CardSingle.scss";
+<style lang="scss" src="./CardSingle.scss">
 </style>

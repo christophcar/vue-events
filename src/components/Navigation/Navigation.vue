@@ -12,6 +12,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "@/components/Navigation/Navigation.scss";
+<style lang="scss" src="./Navigation.scss">
 </style>

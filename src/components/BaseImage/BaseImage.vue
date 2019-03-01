@@ -17,6 +17,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "@/components/BaseImage/BaseImage.scss";
+<style lang="scss" src="./BaseImage.scss">
 </style>
