@@ -4,7 +4,7 @@
   <section>
     <Navigation/>
     <Headline>Find the best events in your area</Headline>
-    <StartImage/>
+    <BaseImage/>
     <div class="cards-overview">
       <CardSingle/>
       <CardSingle/>
@@ -17,7 +17,6 @@
 <script>
 import Navigation from "@/components/Navigation/Navigation";
 import Headline from "@/components/Headline/Headline";
-import StartImage from "@/components/StartImage/StartImage";
 import CardSingle from "@/components/CardSingle/CardSingle";
 
 export default {
@@ -25,7 +24,6 @@ export default {
   components: {
     Navigation,
     Headline,
-    StartImage,
     CardSingle
   }
 };

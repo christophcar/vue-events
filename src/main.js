@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import BaseImage from '@/components/BaseImage/BaseImage.vue'
+
+// globally registered component
+Vue.component('BaseImage', BaseImage)
 
 Vue.config.productionTip = false
 

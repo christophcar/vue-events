@@ -1,7 +1,7 @@
 <!-- this is the single event component -->
 
 <template>
-  <router-link class="card-single-link" :to="{ name: 'card-details' }">
+  <router-link class="card-single-link" :to="{ name: 'card-details', params: { id: '1' }}">
     <div class="container">
       <div class="card-single-title">{{ event.title }}</div>
       <div class="card-single-date">On {{ event.date }} @{{ event.time }}</div>
@@ -16,14 +16,14 @@
 
 <script>
 import CardDetails from "@/views/CardDetails";
-import StartImage from "@/assets/Undraw.svg";
+import BaseImage from "@/assets/Undraw.svg";
 import CardImage from "@/assets/UndrawTeam.svg";
 
 export default {
   name: "CardSingle",
   data() {
     return {
-      image: StartImage,
+      image: BaseImage,
       event: {
         id: 1,
         title: "Beach Cleanup",
