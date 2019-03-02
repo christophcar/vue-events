@@ -13,27 +13,24 @@ in the component tree so that it can flow down to all of the places it needs to 
 </template>
 
 <script>
-import Navigation from "@/components/Navigation/Navigation";
 import Headline from "@/components/Headline/Headline";
 import CardSingle from "@/components/CardSingle/CardSingle";
-import axios from "axios";
+import EventService from "@/services/EventService";
 
 export default {
   name: "CardsOverview",
   components: {
-    Navigation,
     Headline,
     CardSingle
   },
   data() {
     return {
       events: [],
-      headline: "this is a dynamic headline!"
+      headline: "Find great events in your area"
     };
   },
   created() {
-    axios
-      .get("http://localhost:3000/events")
+    EventService.getEvents()
       .then(response => {
         this.events = response.data;
       })

@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import BaseImage from '@/components/BaseImage/BaseImage.vue'
+import Navigation from '@/components/Navigation/Navigation.vue'
 
 // globally registered component
 Vue.component('BaseImage', BaseImage)
+Vue.component('Navigation', Navigation)
 
 Vue.config.productionTip = false
 

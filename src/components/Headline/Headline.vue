@@ -14,6 +14,3 @@ export default {
 };
 </script>
 
-<style lang="scss" src="./Headline.scss">
-</style>
-
