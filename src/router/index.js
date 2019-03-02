@@ -14,9 +14,10 @@ export default new Router({
       component: CardsOverview
     },
     {
-      path: '/card-details',
+      path: '/details/:id',
       name: 'card-details',
-      component: CardDetails
+      component: CardDetails,
+      props: true
     }
   ]
 })

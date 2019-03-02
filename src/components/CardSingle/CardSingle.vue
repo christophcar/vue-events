@@ -1,7 +1,7 @@
 <!-- this is the single event component -->
 
 <template>
-  <router-link class="card-single-link" :to="{ name: 'card-details', params: { id: '1' }}">
+  <router-link class="card-single-link" :to="{ name: 'card-details', params: { id: event.id }}">
     <div class="container">
       <div class="card-single-title">{{ event.title }}</div>
       <div class="card-single-date">On {{ event.date }} @{{ event.time }}</div>

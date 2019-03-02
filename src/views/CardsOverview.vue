@@ -3,7 +3,6 @@
 <!-- Since data only flows down, this means we have to put our data high enough
 in the component tree so that it can flow down to all of the places it needs to go. -->
 
-
 <template>
   <section>
     <Navigation/>

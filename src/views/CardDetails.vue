@@ -1,13 +1,13 @@
 <!-- this is the event detail page -->
 
 <template>
-  <div>
-    <slot>I am a details page!</slot>
-  </div>
+  <h1>Showing event #{{ id }}</h1>
 </template>
 
 <script>
 export default {
-  name: "CardDetails"
+  props: {
+    id: Number
+  }
 };
 </script>
