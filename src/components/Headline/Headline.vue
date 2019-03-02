@@ -1,12 +1,16 @@
 <template>
-  <h1 class="headline-text">
-    <slot>Finde die neuesten Events in deiner Stadt</slot>
-  </h1>
+  <h1 class="headline-text">{{ headline }}</h1>
 </template>
 
 <script>
 export default {
-  name: "Headline"
+  name: "Headline",
+  props: {
+    headline: {
+      type: String,
+      default: "this is the default!"
+    }
+  }
 };
 </script>
 

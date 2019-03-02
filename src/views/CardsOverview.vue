@@ -1,13 +1,15 @@
 <!-- this is the event list overview (startpage) -->
 
+<!-- Since data only flows down, this means we have to put our data high enough
+in the component tree so that it can flow down to all of the places it needs to go. -->
+
+
 <template>
   <section>
     <Navigation/>
-    <Headline>Find the best events in your area</Headline>
+    <Headline :headline="headline"/>
     <BaseImage/>
-    <div class="cards-overview">
-      <CardSingle v-for="event in events" :key="event.id" :event="event"/>
-    </div>
+    <CardSingle v-for="event in events" :key="event.id" :event="event"/>
   </section>
 </template>
 
@@ -26,7 +28,8 @@ export default {
   },
   data() {
     return {
-      events: []
+      events: [],
+      headline: "this is a dynamic headline!"
     };
   },
   created() {
